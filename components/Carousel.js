@@ -31,12 +31,12 @@ export default function Carousel({ slides }) {
         })}
       </div>
 
-      <div className="absolute top-0 h-full w-full justify-between items-center flex text-white px-10 text-3xl">
+      <div className="absolute top-0 h-full w-full justify-between items-center flex px-10">
         <button onClick={previousSlide}>
-          <div className="rounded-full w-3 h-3 cursor-pointer bg-white"></div>
+          <div className="rounded-full cursor-pointer">&lt;</div>
         </button>
         <button onClick={nextSlide}>
-          <div className="rounded-full w-3 h-3 cursor-pointer bg-white"></div>
+          <div className="rounded-full cursor-pointer">&gt;</div>
         </button>
       </div>
 
