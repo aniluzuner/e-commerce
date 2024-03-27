@@ -1,12 +1,13 @@
-import Navbar from '/components/navbar';
-import Carousel from '/components/carousel';
-import Login from '/components/login';
+import Navbar from '/components/Navbar';
+import Carousel from '/components/Carousel';
+import Login from '/components/Login';
 
 export default function Home() {
   return (
     <>
       <Navbar />
       <Carousel slides={[
+        "Images/carousel-image.jpg",
         "Images/carousel-image.jpg",
         "Images/carousel-image.jpg",
         "Images/carousel-image.jpg"]} />
