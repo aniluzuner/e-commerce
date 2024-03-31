@@ -7,7 +7,7 @@ export default function Navbar () {
   
   return (
     <header>
-      <nav className="bg-white dark:bg-zinc-950 fixed w-full z-20 top-0 start-0 p-5 border-b-4">
+      <nav className="bg-white dark:bg-zinc-950 fixed w-full z-20 top-0 start-0 p-5 border-b-4 relative">
         <div className="flex flex-wrap items-center justify-between mx-auto p-2">
           <a href="#" className="flex items-center">
             <span className="self-center text-4xl font-bold whitespace-nowrap dark:text-white">LOGO</span>
