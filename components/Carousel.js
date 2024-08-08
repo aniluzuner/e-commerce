@@ -1,9 +1,6 @@
 "use client";
 import { useState } from "react";
-// import {
-//   BsFillArrowRightCircleFill,
-//   BsFillArrowLeftCircleFill,
-// } from "react-icons/bs";
+import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 
 export default function Carousel({ slides }) {
   let [current, setCurrent] = useState(0);
@@ -33,10 +30,10 @@ export default function Carousel({ slides }) {
 
       <div className="absolute top-0 h-full w-full justify-between items-center flex px-10">
         <button onClick={previousSlide}>
-          <div className="rounded-full cursor-pointer">&lt;</div>
+          <div className="rounded-full cursor-pointer"><MdOutlineArrowBackIos className="text-5xl" /></div>
         </button>
         <button onClick={nextSlide}>
-          <div className="rounded-full cursor-pointer">&gt;</div>
+          <div className="rounded-full cursor-pointer"><MdOutlineArrowForwardIos className="text-5xl" /></div>
         </button>
       </div>
 
